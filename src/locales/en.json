@@ -1,0 +1,114 @@
+{
+  "translation": {
+    "title": "Microfrontend running 🚀",
+    "description": "Internationalization is ready with react-i18next.",
+    "currentLanguage": "Current language: {{language}}",
+    "switchToSpanish": "Spanish",
+    "switchToEnglish": "English",
+    "hero": {
+      "badge": "Digital payments infrastructure",
+      "title": "We transform the way you do digital payments",
+      "heading": {
+        "line1": "We transform the way",
+        "line2": "you handle",
+        "line3": "digital payments"
+      },
+      "subtitle": "We connect financial institutions with next-generation technology to process instant, secure and efficient transfers.",
+      "ctaPrimary": "Get started",
+      "ctaSecondary": "Watch demo",
+      "metrics": {
+        "availability": "Availability",
+        "processingTime": "Processing time",
+        "support": "Active support"
+      }
+    },
+    "why": {
+      "title": "Why choose STP?",
+      "subtitle": "Next-generation technology that powers your business into the future of digital payments",
+      "features": {
+        "speed": {
+          "title": "Unmatched speed",
+          "description": "Process transfers in under 2 seconds with our optimized infrastructure. Operate 24/7 with no interruptions."
+        },
+        "security": {
+          "title": "Guaranteed security",
+          "description": "Full compliance with leading security standards and end-to-end encryption. Advanced fraud protection."
+        },
+        "integration": {
+          "title": "Simplified integration",
+          "description": "Modern REST API with complete documentation. Connect your system in days, not months, with SDKs available in multiple languages."
+        }
+      },
+      "stats": {
+        "ariaLabel": "Highlighted metrics of the platform",
+        "institutionsValue": "+500",
+        "institutionsLabel": "Connected institutions",
+        "volumeValue": "$10B+",
+        "volumeLabel": "Processed monthly",
+        "securityValue": "ISO 27001",
+        "securityLabel": "Security certification"
+      }
+    },
+    "technologies": {
+      "title": "Compatible technologies",
+      "subtitle": "Integration with the industry's leading standards",
+      "tags": {
+        "restApi": "REST API",
+        "spei": "SPEI",
+        "iso20022": "ISO 20022",
+        "oauth": "OAuth 2.0",
+        "webhook": "Webhook"
+      }
+    },
+    "info": {
+      "badge": "Complete platform",
+      "title": "Robust infrastructure for your financial operation",
+      "description": "Our platform provides all the tools needed to manage, monitor, and optimize your payment operations. From initial integration to continuous support, we support you at every step of the process.",
+      "imageAlt": "Phone displaying financial dashboard",
+      "cta": "Explore the platform",
+      "features": {
+        "api": "RESTful API with complete and up-to-date documentation",
+        "webhooks": "Real-time webhooks for instant notifications",
+        "analytics": "Advanced dashboard with analytics and reporting",
+        "support": "Specialized technical support available 24/7"
+      }
+    },
+    "contact": {
+      "formSubmitted": "Form submitted",
+      "title": "Ready to transform your digital payments?",
+      "description": "Complete the form and our specialist team will contact you for a personalized demo of our platform.",
+      "benefits": {
+        "fastResponse": "Response in less than 24 hours",
+        "customDemo": "Personalized commitment-free demo",
+        "technicalAdvice": "Specialized technical advice"
+      },
+      "form": {
+        "fullNameLabel": "Full name *",
+        "fullNamePlaceholder": "John Smith",
+        "companyLabel": "Company *",
+        "companyPlaceholder": "Your Company Inc.",
+        "emailLabel": "Email *",
+        "emailPlaceholder": "john@company.com",
+        "phoneLabel": "Phone *",
+        "phonePlaceholder": "+1 555 123 4567",
+        "submit": "Send request",
+        "privacy": "By submitting this form, you accept our terms of service and privacy policy.",
+        "successField": "Field completed successfully"
+      },
+      "validation": {
+        "required": "This field is required",
+        "min2": "Minimum 2 characters",
+        "min3": "Minimum 3 characters",
+        "min10": "Minimum 10 characters",
+        "max20": "Maximum 20 characters",
+        "max60": "Maximum 60 characters",
+        "max80": "Maximum 80 characters",
+        "max120": "Maximum 120 characters",
+        "validName": "Enter a valid name",
+        "validCompany": "Enter a valid company name",
+        "validEmail": "Enter a valid email",
+        "validPhone": "Enter a valid phone number"
+      }
+    }
+  }
+}

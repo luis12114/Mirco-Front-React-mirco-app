@@ -1,0 +1,176 @@
+/* ─── Base reset & STP Design System tokens ───────────── */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* ── Primary Blue ───────────────────────────────────── */
+  --blue-50:  #eff6ff;
+  --blue-100: #dbeafe;
+  --blue-200: #bfdbfe;
+  --blue-300: #93c5fd;
+  --blue-400: #60a5fa;
+  --blue-500: #3b82f6;
+  --blue-600: #155DFC;
+  --blue-700: #1d4ed8;
+  --blue-800: #1e40af;
+  --blue-900: #1e3a8a;
+  --blue-950: #172554;
+
+  /* ── Secondary Teal ─────────────────────────────────── */
+  --teal-50:  #f0fdfa;
+  --teal-100: #ccfbf1;
+  --teal-200: #99f6e4;
+  --teal-300: #5eead4;
+  --teal-400: #2dd4bf;
+  --teal-500: #14b8a6;
+  --teal-600: #0d9488;
+  --teal-700: #0f766e;
+  --teal-800: #115e59;
+  --teal-900: #134e4a;
+
+  /* ── Neutral Grays ──────────────────────────────────── */
+  --gray-50:  #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+  --gray-950: #030712;
+
+  /* ── Slate (dark UI / footer) ──────────────────────── */
+  --slate-50:  #f8fafc;
+  --slate-100: #f1f5f9;
+  --slate-200: #e2e8f0;
+  --slate-300: #cbd5e1;
+  --slate-400: #94a3b8;
+  --slate-500: #64748b;
+  --slate-600: #475569;
+  --slate-700: #334155;
+  --slate-800: #1e293b;
+  --slate-900: #0f172a;
+  --slate-950: #020617;
+
+  /* ── Semantic colors ────────────────────────────────── */
+  --color-success: #18b981;
+  --color-warning: #f59e0b;
+  --color-error:   #ef4444;
+  --color-info:    #3b82f6;
+
+  /* ── Semantic aliases ───────────────────────────────── */
+  --color-brand:       var(--blue-600);
+  --color-brand-dark:  var(--blue-700);
+  --color-brand-light: var(--blue-500);
+  --color-accent:      var(--teal-500);
+  --color-text:        var(--gray-900);
+  --color-text-muted:  var(--gray-500);
+  --color-text-subtle: var(--gray-400);
+  --color-border:      var(--gray-100);
+  --color-border-mid:  var(--gray-200);
+  --color-bg:          #ffffff;
+  --color-bg-subtle:   var(--gray-50);
+  --color-white:       #ffffff;
+
+  /* ── Footer dark theme ──────────────────────────────── */
+  --footer-bg:           var(--slate-900);
+  --footer-bg-card:      var(--slate-800);
+  --footer-text:         var(--slate-400);
+  --footer-text-muted:   var(--slate-500);
+  --footer-border:       rgba(255, 255, 255, 0.08);
+  --footer-border-faint: rgba(255, 255, 255, 0.05);
+
+  /* ── Skeleton shimmer ───────────────────────────────── */
+  --skeleton-base:      #e8e8e8;
+  --skeleton-highlight: #f5f5f5;
+
+  /* ── Typography ─────────────────────────────────────── */
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --text-xs:   12px;
+  --text-sm:   14px;
+  --text-base: 16px;
+  --text-lg:   18px;
+  --text-xl:   20px;
+  --text-2xl:  24px;
+  --text-3xl:  30px;
+  --text-4xl:  36px;
+  --text-5xl:  48px;
+  --text-6xl:  60px;
+
+  /* ── Spacing (base 4px) ─────────────────────────────── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ── Border radius ──────────────────────────────────── */
+  --radius-sm:   6px;
+  --radius-md:   8px;
+  --radius-lg:   10px;
+  --radius-xl:   12px;
+  --radius-2xl:  16px;
+  --radius-3xl:  24px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ────────────────────────────────────────── */
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-md:  0 4px 6px rgba(0,0,0,0.07), 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-lg:  0 10px 15px rgba(0,0,0,0.08), 0 4px 6px rgba(0,0,0,0.04);
+  --shadow-xl:  0 20px 25px rgba(0,0,0,0.09), 0 8px 10px rgba(0,0,0,0.04);
+  --shadow-2xl: 0 25px 50px rgba(0,0,0,0.14);
+  --shadow-brand-sm: 0 2px 8px rgba(37,99,235,0.25);
+  --shadow-brand-md: 0 6px 20px rgba(37,99,235,0.4), 0 2px 6px rgba(37,99,235,0.2);
+
+  /* ── Alpha / overlay utilities ───────────────────── */
+  --color-overlay:      rgba(17, 24, 39, 0.45);
+  --brand-icon-bg:      rgba(37, 99, 235, 0.15);
+  --brand-glow:         rgba(37, 99, 235, 0.12);
+  --brand-shadow-fade:  rgba(37, 99, 235, 0.2);
+  --brand-shadow-logo:  rgba(37, 99, 235, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+}

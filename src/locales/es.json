@@ -1,0 +1,114 @@
+{
+  "translation": {
+    "title": "Microfrontend funcionando 🚀",
+    "description": "Internacionalización lista con react-i18next.",
+    "currentLanguage": "Idioma actual: {{language}}",
+    "switchToSpanish": "Español",
+    "switchToEnglish": "Inglés",
+    "hero": {
+      "badge": "Infraestructura de pagos digitales",
+      "title": "Transformamos la manera de hacer pagos digitales",
+      "heading": {
+        "line1": "Transformamos la manera de",
+        "line2": "hacer",
+        "line3": "pagos digitales"
+      },
+      "subtitle": "Conectamos instituciones financieras con tecnología de última generación para procesar transferencias instantáneas, seguras y eficientes.",
+      "ctaPrimary": "Comenzar ahora",
+      "ctaSecondary": "Ver demostración",
+      "metrics": {
+        "availability": "Disponibilidad",
+        "processingTime": "Tiempo de proceso",
+        "support": "Soporte activo"
+      }
+    },
+    "why": {
+      "title": "¿Por qué elegir STP?",
+      "subtitle": "Tecnología de última generación que impulsa tu negocio hacia el futuro de los pagos digitales",
+      "features": {
+        "speed": {
+          "title": "Velocidad sin precedentes",
+          "description": "Procesa transferencias en menos de 2 segundos con nuestra infraestructura optimizada. Opera 24/7 sin interrupciones."
+        },
+        "security": {
+          "title": "Seguridad garantizada",
+          "description": "Cumplimiento total con estándares de seguridad y cifrado de extremo a extremo. Protección avanzada contra fraude."
+        },
+        "integration": {
+          "title": "Integración simplificada",
+          "description": "API REST moderna con documentación completa. Conecta tu sistema en días, no meses, con SDKs disponibles en múltiples lenguajes."
+        }
+      },
+      "stats": {
+        "ariaLabel": "Métricas destacadas de la plataforma",
+        "institutionsValue": "+500",
+        "institutionsLabel": "Instituciones conectadas",
+        "volumeValue": "$10B+",
+        "volumeLabel": "Procesados mensualmente",
+        "securityValue": "ISO 27001",
+        "securityLabel": "Certificación de seguridad"
+      }
+    },
+    "technologies": {
+      "title": "Tecnologías compatibles",
+      "subtitle": "Integración con los principales estándares de la industria",
+      "tags": {
+        "restApi": "REST API",
+        "spei": "SPEI",
+        "iso20022": "ISO 20022",
+        "oauth": "OAuth 2.0",
+        "webhook": "Webhook"
+      }
+    },
+    "info": {
+      "badge": "Plataforma completa",
+      "title": "Infraestructura robusta para tu operación financiera",
+      "description": "Nuestra plataforma ofrece todas las herramientas necesarias para gestionar, monitorear y optimizar tus operaciones de pago. Desde la integración inicial hasta el soporte continuo, te acompañamos en cada paso del proceso.",
+      "imageAlt": "Teléfono mostrando panel financiero",
+      "cta": "Explorar la plataforma",
+      "features": {
+        "api": "API RESTful con documentación completa y actualizada",
+        "webhooks": "Webhooks en tiempo real para notificaciones instantáneas",
+        "analytics": "Panel de control avanzado con analytics y reportes",
+        "support": "Soporte técnico especializado disponible 24/7"
+      }
+    },
+    "contact": {
+      "formSubmitted": "Formulario enviado",
+      "title": "¿Listo para transformar tus pagos digitales?",
+      "description": "Completa el formulario y nuestro equipo de especialistas se pondrá en contacto contigo para una demostración personalizada de nuestra plataforma.",
+      "benefits": {
+        "fastResponse": "Respuesta en menos de 24 horas",
+        "customDemo": "Demo personalizada sin compromiso",
+        "technicalAdvice": "Asesoría técnica especializada"
+      },
+      "form": {
+        "fullNameLabel": "Nombre completo *",
+        "fullNamePlaceholder": "Juan Pérez",
+        "companyLabel": "Empresa *",
+        "companyPlaceholder": "Tu Empresa S.A.",
+        "emailLabel": "Correo electrónico *",
+        "emailPlaceholder": "juan@empresa.com",
+        "phoneLabel": "Teléfono *",
+        "phonePlaceholder": "+52 55 1234 5678",
+        "submit": "Enviar solicitud",
+        "privacy": "Al enviar este formulario, aceptas nuestros términos de servicio y política de privacidad.",
+        "successField": "Campo completado correctamente"
+      },
+      "validation": {
+        "required": "Este campo es requerido",
+        "min2": "Mínimo 2 caracteres",
+        "min3": "Mínimo 3 caracteres",
+        "min10": "Mínimo 10 caracteres",
+        "max20": "Máximo 20 caracteres",
+        "max60": "Máximo 60 caracteres",
+        "max80": "Máximo 80 caracteres",
+        "max120": "Máximo 120 caracteres",
+        "validName": "Ingresa un nombre válido",
+        "validCompany": "Ingresa un nombre de empresa válido",
+        "validEmail": "Ingresa un correo válido",
+        "validPhone": "Ingresa un teléfono válido"
+      }
+    }
+  }
+}
