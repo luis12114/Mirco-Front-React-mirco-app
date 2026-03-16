@@ -2,10 +2,10 @@
 FROM node:20-alpine AS build
 WORKDIR /app
 
-COPY package*.json ./
 
-# Montamos el .npmrc como secreto
-RUN --mount=type=secret,id=npmrc,target=/root/.npmrc npm install
+COPY package*.json ./
+RUN npm install
+
 
 
 
