@@ -3,6 +3,6 @@
   publish = "dist"
 
 [[headers]]
-  for = "/remoteEntry.js"
-  [headers.values]
-    Access-Control-Allow-Origin = "https://container-app-react.netlify.app"
+for = "/assets/remoteEntry.js"
+[headers.values]
+  Access-Control-Allow-Origin = "https://container-app-react.netlify.app"
