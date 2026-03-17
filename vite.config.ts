@@ -44,10 +44,10 @@ export default defineConfig({
     },
   },
 
-  server: {
-    cors: true, // habilita CORS para todos los orígenes
-    host: true 
-  },
+    server: {
+      cors: true,
+      host: '0.0.0.0'
+    },
 
   preview: {
     cors: true
