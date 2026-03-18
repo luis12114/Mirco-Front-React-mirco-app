@@ -109,9 +109,9 @@ export const WhySection = () => {
   }
 
   const featureIconMap: Record<(typeof featureKeys)[number], React.ReactNode> = {
-    speed: <Zap size={24} aria-hidden="true" />,
-    security: <ShieldCheck size={24} aria-hidden="true" />,
-    integration: <Workflow size={24} aria-hidden="true" />,
+    speed: <Zap size={32} aria-hidden="true" />,
+    security: <ShieldCheck size={32} aria-hidden="true" />,
+    integration: <Workflow size={32} aria-hidden="true" />,
   }
 
   return (
